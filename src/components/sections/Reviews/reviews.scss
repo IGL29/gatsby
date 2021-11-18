@@ -1,0 +1,25 @@
+.reviews {
+  background-color: $lightGrayishCyan7E2;
+
+  &__container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  &__title {
+    margin-bottom: 65px;
+  }
+}
+
+.list-reviews {
+  @extend %reset-list;
+  display: flex;
+  justify-content: space-between;
+
+  &__item-review {
+    flex: 0 1 341px;
+    &:not(:last-of-type) {
+      margin-right: 30px;
+    }
+  }
+}

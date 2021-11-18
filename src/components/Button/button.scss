@@ -1,0 +1,49 @@
+.button {
+  padding-top: 11px;
+  padding-right: 20px;
+  padding-bottom: 11px;
+  padding-left: 20px;
+  border: none;
+  background-color: transparent;
+  color: $white;
+  cursor: pointer;
+
+  &__content {
+    display: block;
+    padding-left: 16px;
+    background-repeat: no-repeat;
+    background-position: left;
+
+    &--image-google {
+      background-image: url("../images/icon-google.svg");
+    }
+
+    &--image-facebook {
+      background-image: url("../images/icon-facebook.svg");
+    }
+  }
+
+  &--google {
+    background-color: $softBlue;
+    border-radius: 8px;
+  }
+
+  &--facebook {
+    background-color: $darkModerateBlue;
+    border-radius: 8px;
+  }
+
+  &--green {
+    background-color: $darkModerateCyan;
+    border-radius: 8px;
+  }
+
+  &--orange {
+    background-color: $softRedLight;
+    border-radius: 8px;
+  }
+
+  &--font-weight-900 {
+    @include font-Avenir(900);
+  }
+}

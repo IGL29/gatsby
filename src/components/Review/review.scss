@@ -1,0 +1,27 @@
+.item-review {
+
+  &__reviewer {
+    margin-bottom: 21px;
+  }
+
+  &__descr {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.35;
+  }
+}
+
+.reviewer {
+  display: flex;
+
+  &__img {
+    margin-right: 21px;
+  }
+
+  &__text {
+    align-self: flex-end;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+  }
+}
