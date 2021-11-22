@@ -3,7 +3,7 @@ import * as React from "react";
 import cn from "classnames";
 // Internals
 import {Button} from "../../Button";
-// import "./footer.scss";
+import "./footer.scss";
 
 const Footer = (): JSX.Element => {
   return (

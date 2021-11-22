@@ -5,7 +5,7 @@ import cn from "classnames"
 import { IReviewsProps, IItem } from "./interfaces"
 import { Review } from "../../Review"
 import { generateRandomString } from '../../../utils/generateRandomString';
-// import "./reviews.scss"
+import "./reviews.scss"
 
 const Reviews = ({ data }: IReviewsProps): JSX.Element => {
   return (

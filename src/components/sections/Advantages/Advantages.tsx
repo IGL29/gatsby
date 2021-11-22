@@ -4,7 +4,7 @@ import cn from 'classnames';
 // Internals
 import {IAdvantagesProps, IItem} from "./interfaces"
 import { generateRandomString } from "../../../utils/generateRandomString"
-// import './advantages.scss';
+import './advantages.scss';
 
 const Advantages = ({data}: IAdvantagesProps): JSX.Element => {
   return(

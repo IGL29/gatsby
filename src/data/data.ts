@@ -69,12 +69,12 @@ const homeCooksData = {
               new recipes, improving my skills and sharing my food with new people. For me, cooking is a pinch of magic,
               a big
               spoon of love, topped with art - and of course fresh ingredients!`,
-          img: 'img/image-5.jpg',
+          img: '/image-5.jpg',
           foodList: [
             {
               name: 'Name food',
               description: 'short description (3-5 words)',
-              img: 'img/image-3.jpg',
+              img: '/image-3.jpg',
               options: {
                 position: 'left'
               }
@@ -82,7 +82,7 @@ const homeCooksData = {
             {
               name: 'Food',
               description: 'very tasty food)',
-              img: 'img/image-4.jpg',
+              img: '/image-4.jpg',
               options: {
                 position: 'right'
               }
@@ -102,12 +102,12 @@ const homeCooksData = {
               ingredients.I love big flavours and traditional methods of cookery - I believe that food made with love
               tastes
               so much better!`,
-          img: 'img/image-6.jpg',
+          img: '/image-6.jpg',
           foodList: [
             {
               name: 'Food',
               description: 'very tasty food',
-              img: 'img/image-3.jpg',
+              img: '/image-3.jpg',
               options: {
                 position: 'right'
               }
@@ -115,7 +115,7 @@ const homeCooksData = {
             {
               name: 'Food',
               description: 'very tasty food)',
-              img: 'img/image-4.jpg',
+              img: '/image-4.jpg',
               options: {
                 position: 'left'
               }
@@ -154,20 +154,20 @@ const homeCooksData = {
     list: [
       {
         name: 'Roz F',
-        img: 'img/image-10.png',
+        img: '/image-10.png',
         feedback: `I love the diversity of food - cooked in small batches by fantastic, local chefs and then delivered! The
               food
               is very different to traditional takeaways and always feels freshly cooked with pride and love.`
       },
       {
         name: 'Gina J',
-        img: 'img/image-11.png',
+        img: '/image-11.png',
         feedback: `The food is amazing, everyone is incredibly kind - and there is a great variety of food, all so skilfully
               prepared! It feels like a homely community!`
       },
       {
         name: 'Nina H',
-        img: 'img/image-10.png',
+        img: '/image-10.png',
         feedback: `It’s great being the opportunity to try food that I would likely not encounter unless I was abroad! Many
               dishes take me back to my childhood memories - and I love supporting local chefs`
       },

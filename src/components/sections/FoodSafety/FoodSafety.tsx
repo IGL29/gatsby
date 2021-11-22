@@ -3,7 +3,7 @@ import * as React from "react"
 import cn from 'classnames';
 // Internals
 import { IFoodSafetyProps } from "./interfaces"
-// import './foodSafety.scss';
+import './foodSafety.scss';
 
 const FoodSafety = ({data}: IFoodSafetyProps): JSX.Element => {
   return(

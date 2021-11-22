@@ -4,7 +4,7 @@ import cn from "classnames"
 // Internals
 import { IHowItWorksProps, IItem } from "./interfaces"
 import { generateRandomString } from "../../../utils/generateRandomString"
-// import "./howItWorks.scss";
+import "./howItWorks.scss";
 
 const HowItWorks = ({ data }: IHowItWorksProps): JSX.Element => {
   return (

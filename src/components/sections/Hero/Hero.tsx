@@ -4,7 +4,7 @@ import cn from 'classnames';
 // Internals
 import {IHeroProps} from "./interfaces"
 import { Button } from "../../Button"
-// import './hero.scss';
+import './hero.scss';
 
 const Hero = ({data}: IHeroProps): JSX.Element => {
   return(

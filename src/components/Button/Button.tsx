@@ -3,7 +3,7 @@ import * as React from "react"
 import cn from "classnames"
 // Internals
 import { IButtonProps } from "./interfaces"
-// import './button.scss';
+import './button.scss';
 
 const Button = ({ text, As = "button", className, href, children }: IButtonProps) => {
   return (

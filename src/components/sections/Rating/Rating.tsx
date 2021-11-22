@@ -4,7 +4,7 @@ import cn from 'classnames';
 // Internals
 import { IRatingProps, IItem } from "./interfaces"
 import { generateRandomString } from '../../../utils/generateRandomString';
-// import './Rating.scss';
+import './Rating.scss';
 
 const Rating = ({data}: IRatingProps): JSX.Element => {
   return(

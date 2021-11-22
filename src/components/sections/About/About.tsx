@@ -3,7 +3,7 @@ import * as React from "react"
 import cn from "classnames"
 // Internals
 import { IAboutProps } from "./interfaces"
-// import styles from "./about.scss"
+import "./about.scss"
 
 const About = ({ data }: IAboutProps): JSX.Element => {
   return (

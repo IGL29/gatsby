@@ -7,6 +7,6 @@ export interface ILogolinkProps {
 
 export enum DefaultValues {
   toPage = "/",
-  src = "img/logo.png",
+  src = "/logo.png",
   alt = "Home Cooks Logotype",
 }

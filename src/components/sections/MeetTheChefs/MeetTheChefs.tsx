@@ -4,7 +4,7 @@ import cn from "classnames"
 // Internals
 import { IMeetTheChefsProps, IItem, IFoodItem } from "./interfaces"
 import { generateRandomString } from "../../../utils/generateRandomString"
-// import "./meetTheChefs.scss"
+import "./meetTheChefs.scss"
 
 const setClassFoodCard = (position: string): string => {
   const classOrderOne = "food-list__item--order-1"

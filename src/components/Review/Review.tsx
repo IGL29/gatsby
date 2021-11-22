@@ -3,7 +3,7 @@ import * as React from "react";
 import cn from 'classnames';
 // Internals
 import { IReviewProps } from "./interfaces";
-// import "./review.scss";
+import "./review.scss";
 
 const Review = ({ name, feedback, img, className }: IReviewProps): JSX.Element => {
   return (

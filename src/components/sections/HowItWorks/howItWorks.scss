@@ -1,3 +1,8 @@
+@import "../../../styles/variables";
+@import "../../../styles/templates";
+@import "../../../styles/mixins";
+@import "../../../styles/settings";
+
 .how-it-works {
   background-color: $lightGrayishCyan7E2;
   &__container {

@@ -4,7 +4,7 @@ import cn from 'classnames';
 // Internals
 import { LogoLink } from "../../LogoLink"
 import { Button } from "../../Button"
-// import './header.scss';
+import './header.scss';
 
 const Header = (): JSX.Element => {
   return (

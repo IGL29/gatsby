@@ -111,19 +111,19 @@ img {
 
   &--background-image-1 {
     &:after {
-      background-image: url("localhost:8000/images/image-2.png");
+      background-image: url("/image-2.png");
     }
   }
 
   &--background-image-2 {
     &:after {
-      background-image: url("localhost:8000/images/image-9.png");
+      background-image: url("/image-9.png");
     }
   }
 
   &--background-image-3 {
     &:after {
-      background-image: url("localhost:8000/images/image-16.png");
+      background-image: url("/image-16.png");
     }
   }
 }
